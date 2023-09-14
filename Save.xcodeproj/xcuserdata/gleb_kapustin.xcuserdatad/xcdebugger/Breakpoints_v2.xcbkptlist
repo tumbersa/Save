@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AC152E28-FAD6-4B0F-8669-86DA6EE538DD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B2AE4E5-A355-4331-BA73-27287C247237"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Save/ImageCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "onMadeBlackAndWhiteButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDC81D60-6ED3-4AC4-817D-50C647B9497A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Save/Supports/KeychainStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setText(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EDC81D60-6ED3-4AC4-817D-50C647B9497A - ed69e7d86f6260d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Save.KeychainStorage.setText(Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Save"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gleb_kapustin/Library/Autosave%20Information/Save/Save/Supports/KeychainStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "EDC81D60-6ED3-4AC4-817D-50C647B9497A - ed69e7d86f6260d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Save.KeychainStorage.setText(Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Save"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gleb_kapustin/Library/Autosave%20Information/Save/Save/Supports/KeychainStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

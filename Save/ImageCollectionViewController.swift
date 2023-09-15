@@ -13,25 +13,31 @@ final class ImageCollectionViewController: UIViewController {
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var saveButton: UIButton!
     
+    @IBOutlet weak var showButton: UIButton!
+    @IBAction func showText(_ sender: Any) {
+        textField.text = storage?.text
+    }
     @IBAction private func onMadeBlackAndWhiteButton(_ sender: Any) {
         storage?.text = textField.text
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if true {
+        let flag: Bool = true
+        if flag
+        {
             storage = KeychainStorage()
         } else {
             storage = UserDefaultsStorage()
         }
         createUI()
-        createConstraints()
+       // createConstraints()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
         textField.text = storage?.text
+        
     }
 
 }
@@ -48,6 +54,12 @@ private extension ImageCollectionViewController {
         saveButton.setTitleColor(.black, for: .normal)
         saveButton.setTitleColor(.systemBlue, for: .highlighted)
         saveButton.layer.cornerRadius = 4
+        
+        showButton.setTitle("Показать", for: .normal)
+        showButton.backgroundColor = .white
+        showButton.setTitleColor(.black, for: .normal)
+        showButton.setTitleColor(.systemBlue, for: .highlighted)
+        showButton.layer.cornerRadius = 4
     }
     
     func createConstraints(){

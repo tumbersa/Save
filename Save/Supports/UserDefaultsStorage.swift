@@ -14,8 +14,7 @@ enum StorageKeys: String {
 final class UserDefaultsStorage: StorageProtocol {
     private let storage = UserDefaults.standard
     
-    init() {
-    }
+    
     
     var text: String? {
         get{

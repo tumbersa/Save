@@ -33,19 +33,34 @@
                                     <action selector="onMadeBlackAndWhiteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UbF-eT-baB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG8-qL-0Ai">
+                                <rect key="frame" x="159" y="569" width="75" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="6b5-Vc-ISa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="daL-21-gij"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="showText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0af-bE-UhX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qKq-49-HNp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="3Eq-wk-Atf"/>
+                            <constraint firstItem="HG8-qL-0Ai" firstAttribute="leading" secondItem="qKq-49-HNp" secondAttribute="leading" id="D3L-Wm-oEi"/>
                             <constraint firstItem="qKq-49-HNp" firstAttribute="top" secondItem="aZD-3w-0dD" secondAttribute="bottom" constant="140" id="HE2-Ro-8GN"/>
                             <constraint firstItem="qKq-49-HNp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cHr-nq-iRs"/>
+                            <constraint firstItem="HG8-qL-0Ai" firstAttribute="top" secondItem="qKq-49-HNp" secondAttribute="bottom" constant="113" id="odD-TX-Qsd"/>
                             <constraint firstItem="aZD-3w-0dD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="psM-xS-glw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aZD-3w-0dD" secondAttribute="trailing" constant="46" id="s93-Yn-xx9"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="saveButton" destination="qKq-49-HNp" id="vQg-8b-4kL"/>
+                        <outlet property="showButton" destination="HG8-qL-0Ai" id="uHn-qS-V8m"/>
                         <outlet property="textField" destination="aZD-3w-0dD" id="nSh-L2-L1q"/>
                     </connections>
                 </viewController>
